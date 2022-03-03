@@ -1,7 +1,7 @@
 # tf-cloud-usage
 tf-cloud usage
 # Terraform Cloud
-![tf-cloud](images/tf-cloud.png)
+![tf-cloud](images/tfcloud.svg)
 ![tfhome](images/tfhome.png)
 
 ## Overview
