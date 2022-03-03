@@ -1,20 +1,24 @@
-# tf-cloud-usage
-tf-cloud usage
 # Terraform Cloud
-![tf-cloud](images/tfcloud.svg)
+![tf-cloud](images/tfcloud.png)
 ![tfhome](images/tfhome.png)
 
-## Overview
+## Feature Overview
+- Organization, Workspace, Team Management 
+  - 조직 아래 다수의 작업 공간, 테라폼 작업 단위는 워크스페이스, 조직 팀원 권한 관리
+- Secret,Variable Management
+  - 클라우드 자격증명 및 테라폼 변수 중앙화
+- Remote Backend (tfstate backend, tfstate sharing)
+  - 원격 tfstate 저장 및 이력관리, 워크스페이스 간 스테이트 공유
+- Remote Excute (plan&apply, Cost Estimate)
+  - 원격 Terraform 실행, 원격 플랜 리뷰 및 승인, 비용 예측
+- Private Registry (Terraform module)
+  - 조직 내 프라이빗 모듈 저장소
+- VCS Connection
+  - 코드 저장소 연결 및 이벤트 감지, gitOps 구현
+- Sentinel as Code (Policy)
+  - 코드수준의 작업 관리 및 제한
 
-모든 규모의 환경에서 Terraform 협업을 위한 Cloud Platform
-
-- Cloud환경에서 Terraform의 실행을 동시 확인 및 승인
-- Terraform 실행시 필요한 클라우드 자격증명을 Cloud에서 중앙관리
-- tfstate의 자동 업데이트와 누적으로 히스토리 파악 가능
-- 정책을 통해 Apply 제어, VCS 연동을 통해 gitOps 구현
-- workspace단위로 환경별 workloads 관리
-- 조직 내 RBAC을 사용한 Terraform에 대한 권한 관리
-
+# Hands-On
 ## Prequisites
 
 - Local Terraform Engine
@@ -163,7 +167,7 @@ IAM, Excution Mode, Terraform Version, Remote state sharing
 
         
 
-## Features
+# Feature Detail
 
 ### Terraform Cloud Migration
 
