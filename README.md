@@ -1,5 +1,4 @@
 # Terraform Cloud
-![tf-cloud](images/tfcloud.png)
 ![tfhome](images/tfhome.png)
 
 ## Feature Overview
